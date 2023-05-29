@@ -1,0 +1,7 @@
+utils/ConfigReader.class
+scripts/SwagLabsLoginFormTest.class
+pages/SwagLabsLoginFormPage.class
+pages/SwagLabsProductPage.class
+utils/TestData.class
+utils/Driver.class
+scripts/SwagLabsBase.class
