@@ -13,8 +13,7 @@ public class SwagLabsLoginFormTest extends SwagLabsBase {
 
     @BeforeMethod
     public void setPage() {
-        swagLabsLoginFormPage = new SwagLabsLoginFormPage();
-        swagLabsProductPage = new SwagLabsProductPage();
+
     }
 
         /*

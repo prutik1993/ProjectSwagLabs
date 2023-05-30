@@ -18,6 +18,8 @@ public class SwagLabsBase {
     public void setUp(){
         driver = Driver.getDriver();
         driver.get(ConfigReader.getProperty("appURL"));
+        swagLabsLoginFormPage = new SwagLabsLoginFormPage();
+        swagLabsProductPage = new SwagLabsProductPage();
     }
 
     @AfterMethod
