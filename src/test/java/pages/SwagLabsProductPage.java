@@ -15,6 +15,6 @@ public class SwagLabsProductPage {
     @FindBy(className = "title")
     public WebElement productsTitle;
 
-    @FindBy(className = ".inventory_list div[class='inventory_item'] div[class='inventory_item_img']")
+    @FindBy(css = ".inventory_list div[class='inventory_item'] div[class='inventory_item_img']")
     public List<WebElement> productsImages;
 }

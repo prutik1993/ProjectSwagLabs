@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="TestSuite" time="118.8" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="95.983" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
@@ -21,8 +21,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.io.tmpdir" value="/var/folders/0h/c2qbf4y97p13kh76hpp6yxfr0000gn/T/"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/Applications/apache-maven-3.8.7/bin/m2.conf"/>
@@ -64,13 +63,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="0.537"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginWithValidCredentials" time="33.854"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginWithValidCredentials" time="33.903"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginWithValidCredentials" time="40.133"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="3.321"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="1.357"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="1.877"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="1.969"/>
-  <testcase classname="scripts.SwagLabsLoginFormTest" name="validateLoginFormCard" time="1.849"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="0.686"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="3.883"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="1.507"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="2.199"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="2.156"/>
+  <testcase name="validateLoginFormCard" classname="scripts.SwagLabsLoginFormTest" time="2.212"/>
+  <testcase name="validateLoginWithValidCredentials" classname="scripts.SwagLabsLoginFormTest" time="5.004"/>
+  <testcase name="validateLoginWithValidCredentials" classname="scripts.SwagLabsLoginFormTest" time="4.738"/>
+  <testcase name="validateLoginWithValidCredentials" classname="scripts.SwagLabsLoginFormTest" time="11.392"/>
 </testsuite>

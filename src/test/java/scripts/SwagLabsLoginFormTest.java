@@ -78,6 +78,7 @@ public class SwagLabsLoginFormTest extends SwagLabsBase {
         for (WebElement image : swagLabsProductPage.productsImages) {
             Assert.assertTrue(image.isDisplayed());
         }
+        Assert.assertEquals(swagLabsProductPage.productsImages.size(), TestData.expectedImagesAmount);
     }
 
         /*

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T12:54:00 CDT" name="Command line suite" finished-at="2023-05-29T12:56:56 CDT" duration-ms="175895">
+  <suite started-at="2023-05-30T09:32:42 CDT" name="Smoke" finished-at="2023-05-30T09:34:18 CDT" duration-ms="95790">
     <groups>
     </groups>
-    <test started-at="2023-05-29T12:54:00 CDT" name="Command line test" finished-at="2023-05-29T12:56:56 CDT" duration-ms="175895">
+    <test started-at="2023-05-30T09:32:42 CDT" name="All Functionalities" finished-at="2023-05-30T09:34:18 CDT" duration-ms="95790">
       <class name="scripts.SwagLabsLoginFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:00 CDT" name="setUp" finished-at="2023-05-29T12:54:08 CDT" duration-ms="7812" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:42 CDT" name="setUp" finished-at="2023-05-30T09:32:52 CDT" duration-ms="10185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:08 CDT" name="setPage" finished-at="2023-05-29T12:54:08 CDT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:52 CDT" name="setPage" finished-at="2023-05-30T09:32:52 CDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginFormCard()[pri:1, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:08 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card" finished-at="2023-05-29T12:54:08 CDT" duration-ms="535" status="PASS">
+        <test-method signature="validateLoginFormCard()[pri:1, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:52 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card" finished-at="2023-05-30T09:32:53 CDT" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:08 CDT" name="teardown" finished-at="2023-05-29T12:54:09 CDT" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:53 CDT" name="teardown" finished-at="2023-05-30T09:32:53 CDT" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:09 CDT" name="setUp" finished-at="2023-05-29T12:54:14 CDT" duration-ms="5850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:53 CDT" name="setUp" finished-at="2023-05-30T09:32:59 CDT" duration-ms="6300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:14 CDT" name="setPage" finished-at="2023-05-29T12:54:14 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:59 CDT" name="setPage" finished-at="2023-05-30T09:32:59 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:14 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-29T12:54:48 CDT" duration-ms="33852" status="PASS">
+        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:32:59 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-30T09:33:04 CDT" duration-ms="5003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,19 +47,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:48 CDT" name="teardown" finished-at="2023-05-29T12:54:48 CDT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:04 CDT" name="teardown" finished-at="2023-05-30T09:33:04 CDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:48 CDT" name="setUp" finished-at="2023-05-29T12:54:54 CDT" duration-ms="6059" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:04 CDT" name="setUp" finished-at="2023-05-30T09:33:11 CDT" duration-ms="6316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:54 CDT" name="setPage" finished-at="2023-05-29T12:54:54 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:11 CDT" name="setPage" finished-at="2023-05-30T09:33:11 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:54:54 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-29T12:55:28 CDT" duration-ms="33902" status="PASS">
+        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:11 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-30T09:33:15 CDT" duration-ms="4737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,19 +75,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:55:28 CDT" name="teardown" finished-at="2023-05-29T12:55:28 CDT" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:15 CDT" name="teardown" finished-at="2023-05-30T09:33:15 CDT" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:55:28 CDT" name="setUp" finished-at="2023-05-29T12:55:35 CDT" duration-ms="6747" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:15 CDT" name="setUp" finished-at="2023-05-30T09:33:22 CDT" duration-ms="6333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:55:35 CDT" name="setPage" finished-at="2023-05-29T12:55:35 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:22 CDT" name="setPage" finished-at="2023-05-30T09:33:22 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:55:35 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-29T12:56:15 CDT" duration-ms="40133" status="PASS">
+        <test-method signature="validateLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:22 CDT" name="validateLoginWithValidCredentials" description="Validate Swag Labs Login Form card with valid credentials" data-provider="validCredentials" finished-at="2023-05-30T09:33:33 CDT" duration-ms="11392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,19 +103,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:15 CDT" name="teardown" finished-at="2023-05-29T12:56:15 CDT" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:33 CDT" name="teardown" finished-at="2023-05-30T09:33:33 CDT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:15 CDT" name="setUp" finished-at="2023-05-29T12:56:21 CDT" duration-ms="5865" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:33 CDT" name="setUp" finished-at="2023-05-30T09:33:39 CDT" duration-ms="6227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:21 CDT" name="setPage" finished-at="2023-05-29T12:56:21 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:39 CDT" name="setPage" finished-at="2023-05-30T09:33:39 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:21 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-29T12:56:25 CDT" duration-ms="3321" status="PASS">
+        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:39 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-30T09:33:43 CDT" duration-ms="3883" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:25 CDT" name="teardown" finished-at="2023-05-29T12:56:25 CDT" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:43 CDT" name="teardown" finished-at="2023-05-30T09:33:43 CDT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:25 CDT" name="setUp" finished-at="2023-05-29T12:56:31 CDT" duration-ms="5908" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:43 CDT" name="setUp" finished-at="2023-05-30T09:33:50 CDT" duration-ms="6603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:31 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-29T12:56:32 CDT" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:50 CDT" name="setPage" finished-at="2023-05-30T09:33:50 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:50 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-30T09:33:52 CDT" duration-ms="1506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,19 +169,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:31 CDT" name="setPage" finished-at="2023-05-29T12:56:31 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:32 CDT" name="teardown" finished-at="2023-05-29T12:56:32 CDT" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:52 CDT" name="teardown" finished-at="2023-05-30T09:33:52 CDT" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:32 CDT" name="setUp" finished-at="2023-05-29T12:56:39 CDT" duration-ms="6423" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:52 CDT" name="setUp" finished-at="2023-05-30T09:33:58 CDT" duration-ms="6739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:39 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-29T12:56:40 CDT" duration-ms="1877" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:58 CDT" name="setPage" finished-at="2023-05-30T09:33:58 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:33:58 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-30T09:34:01 CDT" duration-ms="2199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,19 +202,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:39 CDT" name="setPage" finished-at="2023-05-29T12:56:39 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:40 CDT" name="teardown" finished-at="2023-05-29T12:56:40 CDT" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:01 CDT" name="teardown" finished-at="2023-05-30T09:34:01 CDT" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:40 CDT" name="setUp" finished-at="2023-05-29T12:56:46 CDT" duration-ms="5788" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:01 CDT" name="setUp" finished-at="2023-05-30T09:34:07 CDT" duration-ms="6256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:46 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-29T12:56:48 CDT" duration-ms="1968" status="PASS">
+        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:07 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-30T09:34:09 CDT" duration-ms="2156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,23 +231,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:46 CDT" name="setPage" finished-at="2023-05-29T12:56:46 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:07 CDT" name="setPage" finished-at="2023-05-30T09:34:07 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:48 CDT" name="teardown" finished-at="2023-05-29T12:56:48 CDT" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:09 CDT" name="teardown" finished-at="2023-05-30T09:34:09 CDT" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:48 CDT" name="setUp" finished-at="2023-05-29T12:56:54 CDT" duration-ms="5742" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:09 CDT" name="setUp" finished-at="2023-05-30T09:34:15 CDT" duration-ms="6189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:54 CDT" name="setPage" finished-at="2023-05-29T12:56:54 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:15 CDT" name="setPage" finished-at="2023-05-30T09:34:15 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:54 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-29T12:56:56 CDT" duration-ms="1849" status="PASS">
+        <test-method signature="validateLoginFormCard(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:15 CDT" name="validateLoginFormCard" description="Validate Swag Labs Login Form card with invalid credentials" data-provider="invalidCredentials" finished-at="2023-05-30T09:34:18 CDT" duration-ms="2212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,11 +268,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@17046283]" started-at="2023-05-29T12:56:56 CDT" name="teardown" finished-at="2023-05-29T12:56:56 CDT" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts.SwagLabsLoginFormTest@59662a0b]" started-at="2023-05-30T09:34:18 CDT" name="teardown" finished-at="2023-05-30T09:34:18 CDT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- scripts.SwagLabsLoginFormTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- All Functionalities -->
+  </suite> <!-- Smoke -->
 </testng-results>
