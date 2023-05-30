@@ -47,6 +47,7 @@ public class SwagLabsLoginFormTest extends SwagLabsBase {
         Then user should be navigated to "https://www.saucedemo.com/inventory.html"
         And user should see "Products" title
         And user should see images of the products in the page
+        And user should see 6 product images
 
         Examples:
         | username                | password     |
